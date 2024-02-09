@@ -3,11 +3,11 @@ import GameBoard from "./pages/GameBoard";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<GameBoard />} />
-      </Routes>
-    </div>
+    // <div className="App">
+    <Routes>
+      <Route path="/" element={<GameBoard />} />
+    </Routes>
+    // </div>
   );
 }
 
