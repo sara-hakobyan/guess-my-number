@@ -15,7 +15,6 @@ body {
   font-family: "Press Start 2P", sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
 
   .btn {
     border: none;
@@ -112,5 +111,12 @@ body {
     .label-score {
       margin-bottom: 2rem;
     }
+  }
+}
+
+.success {
+  background-color: rgb(18, 168, 18);
+  .number {
+    width: 30rem;
   }
 }
