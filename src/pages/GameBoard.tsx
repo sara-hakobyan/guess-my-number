@@ -9,7 +9,6 @@ export default function GameBoard() {
   const [inputValue, setInputValue] = useState("");
   const [message, setMessage] = useState("Start guessing...");
   const [isSuccess, setIsSuccess] = useState(false);
-  console.log(numberToGuess);
 
   const generaterundomNum = useCallback(() => {
     const randomNum = Math.trunc(Math.random() * 20 + 1);
